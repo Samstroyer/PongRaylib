@@ -52,12 +52,12 @@ public class Ball
         if (position.X < 0)
         {
             Spawn();
-            scores.Item2++;
+            scores.Item1++;
         }
         if (position.X > Raylib.GetScreenWidth())
         {
             Spawn();
-            scores.Item1++;
+            scores.Item2++;
         }
     }
 }
